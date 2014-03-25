@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,400,300);
+/* line 17, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../sass/_typo.scss */
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222222;
+  line-height: 32.5px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* line 22, ../sass/_typo.scss */
+a {
+  text-decoration: underline;
+  color: #ff5200;
+}
+/* line 25, ../sass/_typo.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 31, ../sass/_typo.scss */
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* line 36, ../sass/_typo.scss */
+h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+/* line 41, ../sass/_typo.scss */
+h3 {
+  font-size: 28px;
+}
+
+/* line 45, ../sass/_typo.scss */
+h4 {
+  font-size: 24px;
+}
+
+/* line 49, ../sass/_typo.scss */
+p {
+  margin-bottom: 30px;
+}
+
+/* line 53, ../sass/_typo.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 57, ../sass/_typo.scss */
+ul {
+  margin: 25px;
+  list-style: disc;
+}
+
+/* line 1, ../sass/_layout.scss */
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 6, ../sass/_layout.scss */
+header[role="banner"] {
+  margin: 25px 0;
+}
+
+/* line 10, ../sass/_layout.scss */
+section[role="main"] {
+  margin: 25px 0;
+}
+
+/* line 14, ../sass/_layout.scss */
+footer[role="contentinfo"] {
+  margin: 25px 0;
+}
+
+/* line 18, ../sass/_layout.scss */
+.hide {
+  display: none;
+}
+
+/* line 22, ../sass/_layout.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 7, ../sass/_mixins.scss */
+.clearfix:before, .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 14, ../sass/_mixins.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 26, ../sass/_layout.scss */
+a, textarea, input {
+  outline: none;
+}
+
+/* line 28, ../sass/_layout.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 32, ../sass/_layout.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 1, ../sass/_btn.scss */
+body {
+  background: #f8f8f8;
+}
